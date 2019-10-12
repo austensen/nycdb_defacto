@@ -1,0 +1,12 @@
+---
+files:
+  -
+    url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRvzv7vLgbfs5EE8Uk5EGrFlScp-S0wZ6aOEsirczE-mAeVVswEHawUhY83Ftut9EJPA5jMnP90teIz/pub?output=csv
+    dest: defacto_exclude_bbls.csv
+sql:
+  - defacto_exclude_bbls.sql
+  - defacto_bk_bbl_details.sql
+schema:
+  table_name: defacto_exclude_bbls
+  fields:
+    bbl: char(10)
